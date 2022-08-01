@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "plats",
+  "info": {
+    "singularName": "plat",
+    "pluralName": "plats",
+    "displayName": "Plat",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
