@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "plats",
+  "collectionName": "niveaux",
   "info": {
-    "singularName": "plat",
-    "pluralName": "plats",
-    "displayName": "Plat",
+    "singularName": "niveau",
+    "pluralName": "niveaux",
+    "displayName": " Niveau",
     "description": ""
   },
   "options": {
@@ -12,11 +12,8 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "nom": {
       "type": "string"
-    },
-    "description": {
-      "type": "text"
     }
   }
 }

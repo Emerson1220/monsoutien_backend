@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "categories",
+  "collectionName": "matieres",
   "info": {
-    "singularName": "categorie",
-    "pluralName": "categories",
-    "displayName": "categorie",
-    "description": ""
+    "singularName": "matiere",
+    "pluralName": "matieres",
+    "displayName": "Matière"
   },
   "options": {
     "draftAndPublish": true
@@ -15,14 +14,11 @@
     "nom": {
       "type": "string"
     },
-    "description": {
-      "type": "text"
-    },
     "professeur": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::professeur.professeur",
-      "inversedBy": "categories"
+      "inversedBy": "matieres"
     }
   }
 }
